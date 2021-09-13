@@ -48,6 +48,7 @@
 .counterBuy p {
   font-size: 15px;
   font-weight: bold;
+  margin-left: auto;
 }
 .counterBuy input{
   width: 15%;
