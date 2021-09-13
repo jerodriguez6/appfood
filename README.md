@@ -1,3 +1,18 @@
+# Comidas Rápidas Los paisanos
+
+### General Info
+
+This is a project for a fast food restaurant, it's an app to order the products that the bussines owner wants to show in the app. The application has three pages, the first gives the customer welcome message, the second shows the products, on this page you can filter the products by category and see the total value, and the third page you will see the shopping cart and each selected product, you will also have a button to send the order. This button will send a message by What'sApp 
+
+## Installation
+
+About the installation. 
+
+$ git clone https://github.com/CristianTura/Comidas-Rapidas---Los-paisanos.git
+$ cd appcomidarapida
+$ npm install
+$ npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
