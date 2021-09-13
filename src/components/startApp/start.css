@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700&display=swap');
+
+
+/* -----mobile styles----- */
+
+  .screenDesktop{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/bgStart.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .containerLogo {
+    background-color: #4D2400;
+    width: 90%;
+    height: 14%;
+    margin: auto;
+    margin-top: 13%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+  }
+  .containerLogo img {
+    height: 100%;
+  }
+  .linkStart {
+    width: 40%;
+    height: 6%;
+    margin-top: 36%;
+  }
+  .btnVerMenu{
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #994700;
+    color: white;
+    padding: 2px;
+  }
+  .startFooter {
+    width: 100%;
+    color: white;
+    height: 12.23%;
+    background-image: url(../..//assets/img/bgFooter.jpg);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+/* ----responsive tablet ----- */
+@media (min-width:481px) {
+  .screenDesktop{
+    width: 80%;
+    height: 100vh;
+    border-radius: 0;
+  }
+  .btnVerMenu{
+    font-size: 2.5rem;
+    border-radius: 15px;
+  }
+  .startFooter {
+    font-size: 1.8rem;
+  }
+}
+
+/* ----responsive tablet and small screens laptop----- */
+@media (min-width:769px) {
+  .screenDesktop{
+    width: 80%;
+    height: 100vh;
+    border-radius: 7px;
+  }
+  .btnVerMenu{
+    font-size: 2.5rem;
+    border-radius: 15px;
+  }
+  .startFooter {
+    font-size: 2rem;
+  }
+}
+
+/* ----responsive Desktop - large Screens----- */
+@media (min-width:1025px) {
+  .screenDesktop{
+    width: 50%;
+    height: 96.3vh;
+    border-radius: 7px;
+  }
+  .containerLogo {
+    width: 60%;
+    height: 14%;
+  }
+  .linkStart {
+    width: 35%;
+    height: 6%;
+    margin-top: 36%;
+  }
+  .btnVerMenu{
+    font-size: 1.4rem;
+    border-radius: 15px;
+  }
+  .startFooter {
+    font-size: 1.3rem;
+  }
+}
+
+
+
