@@ -55,9 +55,13 @@
   margin:  10% 20%;
   border: none;
   font-size: 15px;
+  cursor: pointer;
 }
 .counterBuy input:focus{
   outline: none;
+}
+.btndeleteProduct{
+  cursor: pointer;
 }
 
 /* --------------buy total div-------- */

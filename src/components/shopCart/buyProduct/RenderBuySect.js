@@ -12,7 +12,7 @@ const RenderBuySect = ({prod, changeAmount, deleteProduct}) => {
 
             <div className="title">
               <h3>{prod.title}</h3>
-              <Icon onClick={deleteProduct} icon="carbon:close-filled" color="#4d2400" height="20" />
+              <Icon onClick={deleteProduct} icon="carbon:close-filled" color="#4d2400" height="20" className="btndeleteProduct"/>
             </div>  
 
             <div className="counterBuy">

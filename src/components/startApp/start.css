@@ -44,6 +44,7 @@
     background-color: #994700;
     color: white;
     padding: 2px;
+    cursor: pointer;
   }
   .startFooter {
     width: 100%;
