@@ -4,7 +4,7 @@ import './product.css'
 const Burger = ({title, description, image, price, id, arrayCart, setArrayCart}) => {
 
   // -------Read the amont of the product----
-  const [quantity, getQuantity] = useState(0)
+  const [quantity, getQuantity] = useState(1)
   const setQuantity = e => {
     getQuantity(e.target.value)
   }
@@ -44,7 +44,7 @@ const Burger = ({title, description, image, price, id, arrayCart, setArrayCart})
     }
     
     // -------reset amount----
-    getQuantity(0)
+    getQuantity(1)
 
   }
 
@@ -65,7 +65,7 @@ const Burger = ({title, description, image, price, id, arrayCart, setArrayCart})
         <div className="counter">
           <div className="price">
             <p>$ {price}</p>
-            <input onChange={setQuantity} value={quantity} type="number" min="0" placeholder="0" />
+            <input onChange={setQuantity} value={quantity} type="number" min="0" placeholder="0"  />
           </div>
           <button type="submit">Adicionar</button>
         </div>
