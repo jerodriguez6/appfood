@@ -129,7 +129,7 @@ const allProducts = [
     "title": "Mazorcada de la casa",
     "description": "(Maíz tierno, carne desmechada, pollo desmechado, rapipapa, queso y huevos de codorniz)",
     "img": mazorcada,
-    "unPrice": 12000,
+    "unPrice": 13000,
     "category": 'otherPlates',
     "id": 13
   },
@@ -153,7 +153,7 @@ const allProducts = [
     "title": "Arroz Chino - Para 2 o 3 personas",
     "description": "Acompañado de pollo a la broaster)",
     "img": rice,
-    "unPrice": 16000,
+    "unPrice": 17000,
     "category": 'otherPlates',
     "id": 16
   },
@@ -161,7 +161,7 @@ const allProducts = [
     "title": "Arroz Chino - Para 2 o 3 personas",
     "description": "Acompañado de costillas)",
     "img": rice,
-    "unPrice": 17000,
+    "unPrice": 18000,
     "category": 'otherPlates',
     "id": 17
   },
@@ -169,7 +169,7 @@ const allProducts = [
     "title": "Arroz Chino - Familiar",
     "description": "(Acompañado de pollo a la broaster)",
     "img": rice,
-    "unPrice": 26000,
+    "unPrice": 28000,
     "category": 'otherPlates',
     "id": 18
   },
@@ -177,7 +177,7 @@ const allProducts = [
     "title": "Arroz Chino - Familiar",
     "description": "(Acompañado de costillas)",
     "img": rice,
-    "unPrice": 28000,
+    "unPrice": 29000,
     "category": 'otherPlates',
     "id": 19
   },
@@ -214,7 +214,7 @@ const allProducts = [
   {
     "title": "Avena Cubana (grande)",
     "img": avena,
-    "unPrice": 2000,
+    "unPrice": 3000,
     "category": 'drinks',
     "id": 24
   },
