@@ -8,7 +8,7 @@ const start = () => {
   return (
       <div className="screenDesktop">
         <div className="containerLogo">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="Los paisanos" />
         </div>
 
         <Link to="/products" className="linkStart"><button className="btnVerMenu">Ver Menú</button></Link>    
