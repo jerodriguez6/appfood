@@ -1,236 +1,241 @@
-.myOrder{
-  width: 89.2%;
-  margin: 4% 5.4%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.1rem;
+.myOrder {
+    width: 89.2%;
+    margin: 4% 5.4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
 }
 
 /* -------card of each product purchased---- */
 
-.containerBuy{
-  width: 89.2%;
-  margin: 1% 5.4%;
-  height: 57%;
-  overflow: scroll;
+.containerBuy {
+    width: 89.2%;
+    margin: 1% 5.4%;
+    height: 57%;
+    overflow: scroll;
 }
-.productBuy{
-  height: 30%;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  border-bottom: 1px solid #4D2400;
-  margin-bottom: 1%;
+.productBuy {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid #4d2400;
+    margin-bottom: 1%;
 }
-.productBuy img{
-  width: 25%;
+.productBuy img {
+    width: 25%;
 }
 .infoProductBuy {
-  height: 100%;
-  width: 75%;
+    height: 100%;
+    width: 75%;
 }
-.infoProductBuy .title{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+.infoProductBuy .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .infoProductBuy h3 {
-  font-size: 16px;
+    font-size: 16px;
 }
-.productBuy .counterBuy{
-  width: 100%;
-  display: flex;
-  justify-content:right;
-  align-items: center;
+.productBuy .counterBuy {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50%;
 }
 .counterBuy p {
-  font-size: 15px;
-  font-weight: bold;
-  margin-left: auto;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: auto;
 }
-.counterBuy input{
-  width: 15%;
-  margin:  10% 20%;
-  border: none;
-  font-size: 15px;
-  cursor: pointer;
+.counterBuy input {
+    width: 15%;
+    margin: 10% 20%;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
 }
-.counterBuy input:focus{
-  outline: none;
+.counterBuy input:focus {
+    outline: none;
 }
-.btndeleteProduct{
-  cursor: pointer;
+.btndeleteProduct {
+    cursor: pointer;
 }
 
 /* --------------buy total div-------- */
 
-.totalBuy{
-  height: 20%;
-  margin: 5% 5.4% 0;
-  width: 89.2%;
-  border-top: 1px solid #4D2400;
-  position: absolute;
-  bottom: 0;
-  background-color: white;
+.totalBuy {
+    height: 20%;
+    margin: 5% 5.4% 0;
+    width: 89.2%;
+    border-top: 1px solid #4d2400;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
 }
-.totalBuy .price{
-  height: 50%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid #4D2400;
+.totalBuy .price {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #000000;
 }
-.totalBuy .price h2, .totalBuy .price p{
-  font-size: 22px;
-}
-.totalBuy .containerBtn{
-  height: 50%;
-  display: flex;
-  justify-content: space-between;
-  align-items:flex-start;
-}
-.containerBtn .linkBack{
-  display: flex;
-}
-.containerBtn .btnOrder{
-  width: 45%;
-  height: 45%;
-  border-radius: 5px;
-  font-weight: bold;
-  font-family: 'IBM Plex Mono', monospace;
-  color: white;
-  background-color: #4D2400;
-  border: 1px solid #4D2400;
-  box-shadow: 1px 1px 5px #000;
-  font-size: 17px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* ----responsive tablet ----- */
-@media (min-width:481px) {
-
-  .myOrder h4{
+.totalBuy .price h2,
+.totalBuy .price p {
     font-size: 22px;
-  }
-  .productBuy img{
-    width: 30%;
-  }
-  .infoProductBuy h3 {
-    font-size: 18px;
-  }
-  .counterBuy p {
-    font-size: 17px;
-  }
-  .counterBuy input{
-    font-size: 17px;
-  }
-  .totalBuy .price h2, .totalBuy .price p{
-    font-size: 23px;
-  }
-  .containerBtn .btnOrder{
+}
+.totalBuy .containerBtn {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.containerBtn .linkBack {
+    display: flex;
+}
+.containerBtn .btnOrder {
     width: 45%;
     height: 45%;
     border-radius: 5px;
-    font-size: 18px;
-  }
-  .containerBtn .linkBack p{
+    font-weight: bold;
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    background-color: #00bb2d;
+    border: 1px solid #4d2400;
+    box-shadow: 1px 1px 5px #000;
     font-size: 17px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----responsive tablet ----- */
+@media (min-width: 481px) {
+    .myOrder h4 {
+        font-size: 22px;
+    }
+    .productBuy img {
+        width: 30%;
+    }
+    .infoProductBuy h3 {
+        font-size: 18px;
+    }
+    .counterBuy p {
+        font-size: 17px;
+    }
+    .counterBuy input {
+        font-size: 17px;
+    }
+    .totalBuy .price h2,
+    .totalBuy .price p {
+        font-size: 23px;
+    }
+    .containerBtn .btnOrder {
+        width: 45%;
+        height: 45%;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    .containerBtn .linkBack p {
+        font-size: 17px;
+    }
 }
 
 /* ----responsive tablet and small screens laptop----- */
-@media (min-width:769px) {
-  .myOrder h4{
-    font-size: 24px;
-  }
-  .productBuy img{
-    width: 30%;
-  }
-  .infoProductBuy h3 {
-    font-size: 22px;
-  }
-  .counterBuy p {
-    font-size: 19px;
-  }
-  .counterBuy input{
-    font-size: 19px;
-  }
-  .totalBuy .price h2, .totalBuy .price p{
-    font-size: 24px;
-  }
-  .containerBtn .btnOrder{
-    width: 40%;
-    height: 45%;
-    border-radius: 5px;
-    font-size: 20px;
-  }
-  .containerBtn .linkBack p{
-    font-size: 18px;
-  }
+@media (min-width: 769px) {
+    .myOrder h4 {
+        font-size: 24px;
+    }
+    .productBuy img {
+        width: 30%;
+    }
+    .infoProductBuy h3 {
+        font-size: 22px;
+    }
+    .counterBuy p {
+        font-size: 19px;
+    }
+    .counterBuy input {
+        font-size: 19px;
+    }
+    .totalBuy .price h2,
+    .totalBuy .price p {
+        font-size: 24px;
+    }
+    .containerBtn .btnOrder {
+        width: 40%;
+        height: 45%;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .containerBtn .linkBack p {
+        font-size: 18px;
+    }
 }
 
 /* ----responsive Desktop - large Screens----- */
-@media (min-width:1025px) and (max-width:1200px) {
-  .myOrder h4{
-    font-size: 23px;
-  }
-  .productBuy img{
-    width: 25%;
-  }
-  .infoProductBuy h3 {
-    font-size: 20px;
-  }
-  .counterBuy p {
-    font-size: 17px;
-  }
-  .counterBuy input{
-    font-size: 17px;
-  }
-  .totalBuy .price h2, .totalBuy .price p{
-    font-size: 22px;
-  }
-  .containerBtn .btnOrder{
-    width: 40%;
-    height: 50%;
-    border-radius: 5px;
-    font-size: 18px;
-  }
-  .containerBtn .linkBack p{
-    font-size: 17px;
-  }
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .myOrder h4 {
+        font-size: 23px;
+    }
+    .productBuy img {
+        width: 25%;
+    }
+    .infoProductBuy h3 {
+        font-size: 20px;
+    }
+    .counterBuy p {
+        font-size: 17px;
+    }
+    .counterBuy input {
+        font-size: 17px;
+    }
+    .totalBuy .price h2,
+    .totalBuy .price p {
+        font-size: 22px;
+    }
+    .containerBtn .btnOrder {
+        width: 40%;
+        height: 50%;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    .containerBtn .linkBack p {
+        font-size: 17px;
+    }
 }
 
-@media (min-width:1201px) {
-  .myOrder h4{
-    font-size: 23px;
-  }
-  .productBuy img{
-    width: 20%;
-  }
-  .infoProductBuy h3 {
-    font-size: 19px;
-  }
-  .counterBuy p {
-    font-size: 16px;
-  }
-  .counterBuy input{
-    font-size: 16px;
-  }
-  .totalBuy .price h2, .totalBuy .price p{
-    font-size: 22px;
-  }
-  .containerBtn .btnOrder{
-    width: 40%;
-    height: 50%;
-    border-radius: 5px;
-    font-size: 18px;
-  }
-  .containerBtn .linkBack p{
-    font-size: 17px;
-  }
+@media (min-width: 1201px) {
+    .myOrder h4 {
+        font-size: 23px;
+    }
+    .productBuy img {
+        width: 20%;
+    }
+    .infoProductBuy h3 {
+        font-size: 19px;
+    }
+    .counterBuy p {
+        font-size: 16px;
+    }
+    .counterBuy input {
+        font-size: 16px;
+    }
+    .totalBuy .price h2,
+    .totalBuy .price p {
+        font-size: 22px;
+    }
+    .containerBtn .btnOrder {
+        width: 40%;
+        height: 50%;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    .containerBtn .linkBack p {
+        font-size: 17px;
+    }
 }
